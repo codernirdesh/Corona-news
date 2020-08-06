@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  grid-template-columns: 75% auto;
+  grid-template-areas: 
+  "navigation navigation"
+  "trending trending"
+  "main sidebar"
+  "footer footer";
+  .main {
+      margin-top: 0px;
+    grid-area: main;
+  }
+  .topbar {
+    grid-area: navigation;
+  }
+  .news-tick{
+      grid-area: trending;
+  }
+  .side {
+      margin-top: 21px;
+    grid-area: sidebar;
+    height: 100%;
+    width: auto;
+    background-color: green;
+  }
+  .footer{
+      grid-area: footer;
+  }
+}

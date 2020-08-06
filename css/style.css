@@ -1,0 +1,304 @@
+.bg-img{
+    position: fixed;
+    z-index: -1;
+    opacity: 0.4;
+}
+.logo{
+    margin: 0px;
+    margin-top: 153px;
+    padding: 0px;
+    animation: logo-reveal;
+    animation-duration: 2.4s;
+}
+@keyframes logo-reveal {
+    0%{
+        opacity: 00;
+    }
+    100%{
+        opacity: 1;
+        float: center;
+    }
+}
+.mp00{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden
+}
+#navbar{
+    z-index: 5;
+}
+.top-header, .navbar-brand{
+    background-color: #ffffff;
+    font-family: 'mukta', Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: solid;
+    border-bottom-color: #E71C23;
+    border-top-style: solid;
+    border-top-color: #192A56;
+}
+.top-header li{
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.top-header li a, .nav-link{
+    margin: 0px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+ul.top-header li a:hover, .nav-link:hover{
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px black;
+    animation-name: menu-hover;
+    animation-duration: 0.5s;
+    background-color: #E71C23;
+    color: #ffffff;
+}
+/*navigation logo*/
+.np-img{
+    display: flex;
+    margin: 0px;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+}
+/*navigation logo*/
+
+@keyframes menu-hover {
+    0%{
+        opacity: 0.8;
+        margin: 0px;
+        text-shadow: 0px 0px 0px black;
+        color: black;
+        background-color: #ffffff;
+    }
+    100%{
+        margin: 0px;
+        opacity: 1;
+        color: #ffffff;
+        background-color: #E71C23;
+    }
+}
+.sticky-head{
+    z-index: 4;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+.np-grey{
+    background-color: rgba(255, 255, 255, 0.466);
+}
+.np-center{
+    margin-bottom: 10px;
+}
+.breaking-news{
+    text-align: center;
+    align-content: center;
+    border: solid 7px rgba(224, 223, 224, 0.253);
+    border-top-width: 8px;
+    border-top-color: #E71C23;
+    padding-bottom: 12px;
+}
+.breaking-news p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 42px;
+    margin: 0px;
+    padding: 25px;
+}
+.breaking-news .breaking-link{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: #192A56;
+}
+h1.headline, .logo-text{
+    color: #2B2B52;
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #7B8788;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.author .fas{
+    margin: 4px;
+    padding: 0px;
+}
+.author{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+.media-thumb{
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-width: 1200px;
+    max-height: 600px;
+}
+.np-content{
+    margin-top: 20px;
+    margin-bottom: 28px;
+    font-family: 'mukta', Helvetica, sans-serif;
+}
+.sidebar p{
+    margin: 5px;
+    text-align: justify;
+    padding-top: 20px;
+    font-family: 'mukta', Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 42px;
+}
+.trending{
+background-color: rgb(224, 223, 224);
+margin: 0px;
+padding: 0px;
+}
+.trending .news-tick span.s1{
+    font-family: 'mukta', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    color: #E71C23;
+}
+span.s1:hover{
+    font-weight: 800;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.226);
+}
+.trending .wrapper{
+    font-family: 'mukta', Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    background-color: #0A79DF;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 1px 0px 10px rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.footer{
+    font-family: 'mukta', Helvetica, sans-serif;
+    background-color: #192A56;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    color: #ffffff;
+}
+.designer{
+    color: #ffffff;
+    text-decoration: none;
+}
+.designer:hover{
+    text-decoration: none;
+    font-size: large;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 0px;
+    transition: 0.3s ease-in-out;
+}
+.card-deck{
+    margin-bottom: 15px;
+}
+.card-body>p{
+    font-family: 'mukta', Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+
+
+/*=========================Mobile Layout===========================*/
+
+
+
+@media only screen and (max-width: 1128px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .mp00{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        overflow: hidden
+    }
+    .top-header, .navbar-brand{
+        background-color: #ffffff;
+        font-family: 'mukta', Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        border-bottom: solid;
+        border-bottom-color: #E71C23;
+        border-top-style: solid;
+        border-top-color: #192A56;
+    }
+    .top-header li{
+        margin: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .top-header li a, .nav-link{
+        margin: 0px;
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+    }
+    ul.top-header li a:hover, .nav-link:hover{
+        color: #ffffff;
+        font-weight: bold;
+        text-shadow: 1px 2px 2px black;
+        animation-name: menu-hover;
+        animation-duration: 0.5s;
+        background-color: #E71C23;
+        color: #ffffff;
+    }
+    /*navigation logo*/
+    img.np-img{
+        margin: 0px;
+        display: inline-block;
+        padding: 0px;
+        align-content: center;
+        text-align: center;
+    }
+    /*navigation logo*/
+    .sticky {
+        top: 0;
+        width: 100%;
+      }
+      .sticky + .content {
+        padding-top: 60px;
+      }
+}

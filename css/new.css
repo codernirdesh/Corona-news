@@ -1,0 +1,46 @@
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% auto;
+      grid-template-columns: 75% auto;
+      grid-template-areas: "navigation navigation" "trending trending" "main sidebar" "footer footer";
+}
+
+body .main {
+  margin-top: 0px;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+body .topbar {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: navigation;
+}
+
+body .news-tick {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: trending;
+}
+
+body .side {
+  margin-top: 21px;
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: sidebar;
+  height: 100%;
+  width: auto;
+  background-color: green;
+}
+
+body .footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+}
+/*# sourceMappingURL=new.css.map */
